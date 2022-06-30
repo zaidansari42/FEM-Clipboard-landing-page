@@ -5,8 +5,6 @@
 .attribution a {
   color: hsl(228, 45%, 44%);
 }
-/* - Mobile: 375px
-- Desktop: 1440px */
 
 :root {
   --Strong_Cyan: hsl(171, 66%, 44%);
@@ -42,10 +40,6 @@ body {
   color: var(--Grayish_Blue);
 }
 
-/* div {
-  border: 1px solid;
-} */
-
 h1,
 h2,
 h3,
@@ -60,9 +54,6 @@ h4 {
   background-image: url(images/bg-header-desktop.png);
   background-repeat: no-repeat;
   background-size: cover;
-}
-
-.context {
 }
 
 h1 {
@@ -126,7 +117,7 @@ h2 {
 
   text-align: left;
 
-  width: 35ch;
+  max-width: 35ch;
 }
 
 .features_list {
@@ -146,7 +137,6 @@ li.small {
 }
 
 div.pc {
-  /* position: absolute; */
   position: relative;
   left: -35px;
 }
@@ -318,6 +308,15 @@ div.pc {
 
   p {
     line-height: 2em;
+  }
+
+  .g_container {
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  }
+
+  .companies {
+    grid-template-columns: repeat(auto-fill, minmax(120px, 1fr));
+    padding: 2em;
   }
 
   .foot_link {
