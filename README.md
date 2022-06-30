@@ -66,5 +66,5 @@ I learned how to create a beautiful website with only HTML & CSS. And how to mov
 ## Author
 
 - Website - [Add your name here](https://github.com/zaidansari42/)
-- Frontend Mentor - [@zaidnasari42](https://www.frontendmentor.io/profile/zaidnasari42)
+- Frontend Mentor - [@zaidnasari42](https://www.frontendmentor.io/profile/zaidansari42)
 - Twitter - [@zaidnasari42](https://www.twitter.com/zaidnasari42)
